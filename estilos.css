@@ -1,6 +1,10 @@
 @charset "utf-8";
 /* CSS Document */
 
+*{
+	margin:0px;
+	padding: 0px;
+}
 #cabecera {
 	background-color:#C83E40;
 	width: 1200px;
@@ -32,4 +36,20 @@ li {
 
 p {
 	font-size: 16px;
+}
+
+.caja{
+	width: 1160px;
+	height: 100px;
+	background-color:#FFBFC0;
+	padding: 20px 20px 20px 20px;
+	margin: 20px;
+	border-width: 5px;
+	border-style:dotted;
+	border-color: black;
+	box-sizing: border-box;
+}
+
+section p {
+	font-size: 16px
 }
