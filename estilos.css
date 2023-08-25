@@ -14,11 +14,13 @@
 h1 {
 	color:#FFCACB;
 	font-size: 45px;
+	font-family: "Kanit SemiBold";
 }
 
 h2 {
 	color:#CBCBCB;
-	font-size: 30px
+	font-size: 30px;
+	font-family: "Kanit Light";
 }
 
 header li {
@@ -28,14 +30,17 @@ header li {
 h3 {
 	color: #C83E40;
 	font-size: 25px;
+	font-family: "Kanit Light"
 }
 
 li {
 	font-size: 16px;
+	font-family: "Kanit Light"
 }
 
 p {
 	font-size: 16px;
+	font-family: "Kanit Light"
 }
 
 .caja{
@@ -51,5 +56,6 @@ p {
 }
 
 section p {
-	font-size: 16px
+	font-size: 16px;
+	font-family: "Kanit Light"
 }
