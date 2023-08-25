@@ -9,9 +9,27 @@
 
 h1 {
 	color:#FFCACB;
-	font-size: 40px;
+	font-size: 45px;
 }
 
 h2 {
 	color:#CBCBCB;
+	font-size: 30px
+}
+
+header li {
+	color:#FFCACB;
+}
+
+h3 {
+	color: #C83E40;
+	font-size: 25px;
+}
+
+li {
+	font-size: 16px;
+}
+
+p {
+	font-size: 16px;
 }
