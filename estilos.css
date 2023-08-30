@@ -86,9 +86,13 @@ section p {
 .caja2 {
 	width: 1160px;
 	height: 50px;
-	background-color:#FFCACB;
+	background-color:#C83E40;
 }
 
 footer p {
-	color:#C83E40;
+	color:#FFCACB;
+}
+
+footer {
+	display: flex;
 }
