@@ -76,6 +76,7 @@ ul {
 	border-style:dotted;
 	border-color: black;
 	box-sizing: border-box;
+	display:flex;
 }
 
 section p {
@@ -98,4 +99,13 @@ footer {
 	justify-content: space-between;
 	align-items: center;
 	padding: 10px 30px 10px 30px
+}
+
+#datos {
+	display: flex;
+	align-items: baseline;
+    flex-direction: row;
+	background-color:#FFCACB;
+	width: 1000px;
+	justify-content: space-around;
 }
