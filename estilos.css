@@ -39,6 +39,9 @@ main {
 
 #estructura {
 	display: flex;
+	height: 350px;
+	width: 1160px;
+	margin: 30px;
 }
 
 header li {
