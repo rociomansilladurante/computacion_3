@@ -72,6 +72,12 @@ ul {
 	font-family: "Kanit Light"
 }
 
+#datos ul {
+	font-size: 14px;
+	color:#C83E40;
+	font-family: "Kanit Medium"
+}
+
 section p {
 	font-size: 16px;
 	font-family: "Kanit Light"
@@ -104,6 +110,7 @@ footer {
 #columna-izquierda {
 	margin: 30px;
 	padding: 50px;
+	width: 700px;
 }
 
 #columna-derecha ¨{
