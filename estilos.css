@@ -14,6 +14,8 @@
 header {
 	display: flex;
 	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 }
 
 h1 {
@@ -26,6 +28,17 @@ h2 {
 	color:#CBCBCB;
 	font-size: 30px;
 	font-family: "Kanit Light";
+}
+
+main {
+	padding: 50px 30px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+#estructura {
+	display: flex;
 }
 
 header li {
@@ -44,6 +57,11 @@ li {
 }
 
 p {
+	font-size: 16px;
+	font-family: "Kanit Light"
+}
+
+ul {
 	font-size: 16px;
 	font-family: "Kanit Light"
 }
