@@ -8,7 +8,7 @@
 #cabecera {
 	background-color:#C83E40;
 	width: 1200px;
-	height: 370px;
+	height: 300px;
 }
 
 header {
@@ -31,7 +31,7 @@ h2 {
 }
 
 main {
-	padding: 50px 30px;
+	padding: 30px 30px;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -48,12 +48,12 @@ header li {
 h3 {
 	color: #C83E40;
 	font-size: 25px;
-	font-family: "Kanit Light"
+	font-family: "Kanit Light";
 }
 
 li {
 	font-size: 16px;
-	font-family: "Kanit Light"
+	font-family: "Kanit Light";
 }
 
 p {
