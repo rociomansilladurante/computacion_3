@@ -8,7 +8,7 @@
 /* Mirá que pasa si trabajás con porcentajes (te puse el width al 100%) te ocupa toda la pantalla independientemente de la resolución del dispositivo. Usá todo al 100% o al porcentaje que quieras. Tratá de separar mejor las cosas con margin */
 #cabecera {
 	background-color:#C83E40;
-	width: 100%;
+	width: 105%;
 	height: 300px;
 }
 
@@ -27,15 +27,15 @@ h1 {
 
 h2 {
 	color:#CBCBCB;
-	font-size: 30px;
-	font-family: "Kanit Light";
+	font-size: 33px;
+	font-family: "Kanit ExtraLight";
 }
 
 #estructura {
 	display: flex;
 	height: 100%;
 	width: 100%;
-	margin: 30px;
+	width: 964px;
 	align-items: baseline;
 	justify-content: space-around;
 }
@@ -53,23 +53,28 @@ main {
 
 h3 {
 	color: #C83E40;
-	font-size: 25px;
-	font-family: "Kanit Light";
+	font-size: 33px;
+	font-family: "Kanit Medium";
 }
 
 li {
 	font-size: 16px;
-	font-family: "Kanit Light";
+	font-family: "Kanit";
 }
 
 p {
 	font-size: 16px;
-	font-family: "Kanit Light"
+	font-family: "Kanit"
 }
 
 ul {
 	font-size: 16px;
-	font-family: "Kanit Light"
+	font-family: "Kanit"
+}
+
+h4 {
+	font-family: "Kanit ExtraLight";
+	font-size: 14px;
 }
 
 #datos ul {
@@ -80,7 +85,7 @@ ul {
 
 section p {
 	font-size: 16px;
-	font-family: "Kanit Light"
+	font-family: "Kanit"
 
 }
 
@@ -103,8 +108,10 @@ footer {
 	align-items: baseline;
 	flex-direction: row;
 	background-color:#FFCACB;
-	width: 1000px;
+	width: 800px;
 	justify-content: space-around;
+	padding-top: 30px;
+	padding-bottom: 40px;
 }
 
 #columna-izquierda {
@@ -113,7 +120,12 @@ footer {
 	width: 700px;
 }
 
+#columna-izquierda ul {
+	color:#C83E40
+}
+
 #columna-derecha ¨{
-	margin: 30px;
+	margin: 50px;
 	width: 300px;
+	padding: 30px;
 }
