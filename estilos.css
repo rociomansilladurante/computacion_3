@@ -8,7 +8,7 @@
 /* Mirá que pasa si trabajás con porcentajes (te puse el width al 100%) te ocupa toda la pantalla independientemente de la resolución del dispositivo. Usá todo al 100% o al porcentaje que quieras. Tratá de separar mejor las cosas con margin */
 #cabecera {
 	background-color:#C83E40;
-	width: 105%;
+	width: 107%;
 	height: 300px;
 }
 
@@ -97,7 +97,7 @@ footer {
 	display: flex;
 	align-items: center;
 	padding: 10px 30px 10px 30px;
-	width: 100%;
+	width: 102%;
 	height: 50px;
 	background-color:#C83E40;
 	justify-content: space-around;
