@@ -1,6 +1,8 @@
 @charset "utf-8";
 /* CSS Document */
 
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200;400;500;600&display=swap');
+
 *{
 	margin:0px;
 	padding: 0px;
@@ -22,13 +24,13 @@ header {
 h1 {
 	color:#FFCACB;
 	font-size: 45px;
-	font-family: "Kanit SemiBold";
+	font-family: "Kanit SemiBold", sans-serif;
 }
 
 h2 {
 	color:#CBCBCB;
 	font-size: 33px;
-	font-family: "Kanit ExtraLight";
+	font-family: "Kanit ExtraLight", sans-serif;
 }
 
 #estructura {
@@ -54,38 +56,38 @@ main {
 h3 {
 	color: #C83E40;
 	font-size: 33px;
-	font-family: "Kanit Medium";
+	font-family: "Kanit Medium", sans-serif;
 }
 
 li {
 	font-size: 16px;
-	font-family: "Kanit";
+	font-family: "Kanit", sans-serif;
 }
 
 p {
 	font-size: 16px;
-	font-family: "Kanit"
+	font-family: "Kanit", sans-serif;
 }
 
-ul {
+li {
 	font-size: 16px;
-	font-family: "Kanit"
+	font-family: "Kanit", sans-serif;
 }
 
 h4 {
-	font-family: "Kanit ExtraLight";
+	font-family: "Kanit ExtraLight", sans-serif;
 	font-size: 14px;
 }
 
 #datos ul {
 	font-size: 14px;
 	color:#C83E40;
-	font-family: "Kanit Medium"
+	font-family: "Kanit Medium", sans-serif;
 }
 
 section p {
 	font-size: 16px;
-	font-family: "Kanit"
+	font-family: "Kanit", sans-serif;
 
 }
 
