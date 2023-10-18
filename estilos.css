@@ -10,13 +10,13 @@
 /* Mirá que pasa si trabajás con porcentajes (te puse el width al 100%) te ocupa toda la pantalla independientemente de la resolución del dispositivo. Usá todo al 100% o al porcentaje que quieras. Tratá de separar mejor las cosas con margin */
 #cabecera {
 	background-color:#C83E40;
-	width: 107%;
+	width: 100%;
 	height: 300px;
 }
 
 header {
 	display: flex;
-	flex-direction: column;
+	flex-direction: row;
 	justify-content: center;
 	align-items: center;
 }
@@ -130,4 +130,92 @@ footer {
 	margin: 50px;
 	width: 300px;
 	padding: 30px;
+}
+
+.botonera {
+	width: 100%;
+	height: 50px;
+	background-color:#FFCACB;
+	padding-left: 740px;
+}
+
+nav ul {
+	list-style: none;
+}
+
+.botonera a {
+	text-decoration: none;
+	color:#C83E40;
+	padding: 10px 20px;
+}
+
+nav ul li {
+	display: inline;}
+
+.botonera a:hover{
+	color:#000000;
+}
+
+#cabecera-portada {
+	width: 100%;
+	height: 90px;
+	background-color:#FFCACB;
+	background-size: 100%;
+	padding-bottom: 0px;
+}
+
+main {
+	display: flex;
+	padding-left: 0px;
+	margin-left: -20px;
+	width: 100%;
+	padding-top: 0px;
+}
+
+#portada {
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	justify-content: space-around;
+	padding-left: 30px;
+	margin-left: 0px;
+	padding-top: 0px;
+}
+article h1{
+	color:#C83E40;
+}
+
+article h2{
+	color:#000000;
+}
+
+nav ul li a {
+	font-family: "Kanit ExtraBold";
+	font-size: 22px;
+}
+
+main h1{
+	color:#C83E40;
+}
+
+article {
+	padding: 40px;
+}
+
+aside{
+	width: 100%;
+	padding: 50px;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+aside a {
+	width: 25%;
+	display: flex;
+}
+
+main a ing {
+	width: 100%;
+	height: auto;
 }
