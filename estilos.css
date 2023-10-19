@@ -186,7 +186,9 @@ main h1{
 article {
 	padding-bottom: 20px;
 	padding-top: 20px;
-	padding-left: 60px;
+	padding-left: 75px;
+	padding-right: 30px;
+	margin-top: 40px;
 }
 
 aside{
@@ -215,6 +217,7 @@ form {
 	padding-left: 30px;
 	padding-right: 30px;
 }
+
 label {
 	display: block;
 	height: 35px;
