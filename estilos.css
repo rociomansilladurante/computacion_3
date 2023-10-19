@@ -8,11 +8,6 @@
 	padding: 0px;
 }
 /* Mirá que pasa si trabajás con porcentajes (te puse el width al 100%) te ocupa toda la pantalla independientemente de la resolución del dispositivo. Usá todo al 100% o al porcentaje que quieras. Tratá de separar mejor las cosas con margin */
-#cabecera {
-	background-color:#C83E40;
-	width: 100%;
-	height: 300px;
-}
 
 header {
 	display: flex;
@@ -28,7 +23,7 @@ h1 {
 }
 
 h2 {
-	color:#CBCBCB;
+	color: #000000;
 	font-size: 33px;
 	font-family: "Kanit ExtraLight", sans-serif;
 }
@@ -38,12 +33,8 @@ h2 {
 	height: 100%;
 	width: 100%;
 	width: 964px;
-	align-items: baseline;
+	align-items:flex-start;
 	justify-content: space-around;
-}
-
-header li {
-	color:#FFCACB;
 }
 
 main {
@@ -79,12 +70,6 @@ h4 {
 	font-size: 14px;
 }
 
-#datos ul {
-	font-size: 14px;
-	color:#C83E40;
-	font-family: "Kanit Medium", sans-serif;
-}
-
 section p {
 	font-size: 16px;
 	font-family: "Kanit", sans-serif;
@@ -118,7 +103,7 @@ footer {
 
 #columna-izquierda {
 	margin: 30px;
-	padding: 50px;
+	padding-top: 0px;
 	width: 700px;
 }
 
@@ -127,16 +112,15 @@ footer {
 }
 
 #columna-derecha ¨{
-	margin: 50px;
 	width: 300px;
-	padding: 30px;
+	padding-top: 20px;
 }
 
 .botonera {
 	width: 100%;
 	height: 50px;
 	background-color:#FFCACB;
-	padding-left: 850px;
+	padding-left: 920px;
 	padding-top: 20px;
 }
 
@@ -200,8 +184,8 @@ main h1{
 }
 
 article {
-	padding: 50px;
-	padding-top: 40px;
+	padding-bottom: 20px;
+	padding-top: 20px;
 	padding-left: 60px;
 }
 
@@ -237,7 +221,7 @@ label {
 
 input {
 	background-color: #FFCACB;
-	width: 100%;
+	width: 50%;
 	height: 25px;
 	margin-bottom: 5px;
 	padding: 5px;
@@ -259,4 +243,5 @@ textarea {
 	width: 100%;
 	height: 100px;
 	background-color: #FFCACB;
+	padding: 5px;
 }
