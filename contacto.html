@@ -17,25 +17,30 @@
 		</nav>
 	</header>
 	<main>
-		<h3>Trabajá conmigo</h3>
-		<form>
-			<label for="Nombre">Nombre:</label>
-			<input type="text" name="Nombre" id="Nombre" placeholder="Nombre completo" required>
-			
-			<label for="E-mail">E-mail:</label>
-			<input type="text" name="E-mail" id="E-mail" placeholder="ejemplo@gmail.com" required>
-			
-			<h3>Áreas de trabajo</h3>
-			<label>Diseño editorial <input type="checkbox" name="Áreas-de-trabajo" value="Diseño editorial" id="Editorial"></label>
-			<label>Diseño de identidad <input type="checkbox" name="Áreas-de-trabajo" value="Diseño de identidad" id="Identidad"></label>
-			<label>Diseño de señalética <input type="checkbox" name="Áreas-de-trabajo" value="Diseño de señalética" id="Señalética"></label>
-			<label>Fotografía <input type="checkbox" name="Áreas-de-trabajo" value="Fotografía" id="Fotografía"></label>
-			
-			<h3>Detalles del proyecto</h3>
-			<textarea name="Detalles del proyecto" id="Detalles del proyecto" placeholder="¿De qué se trata?"></textarea>
-			
-			<input type="reset" value="Borrar" class="button-form">
-			<input type="submit" value="Enviar" class="button-form">
+		<h1>Trabajá conmigo</h1>
+		<form class="estructura-contacto">
+			<section>
+				<label for="Nombre">Nombre:</label>
+				<input type="text" name="Nombre" id="Nombre" placeholder="Nombre completo" required>
+
+				<label for="E-mail">E-mail:</label>
+				<input type="text" name="E-mail" id="E-mail" placeholder="ejemplo@gmail.com" required>
+				
+				<section id="areas">
+					<h3>Áreas de trabajo</h3>
+					<label>Diseño editorial <input type="checkbox" name="Áreas-de-trabajo" value="Diseño editorial" id="Editorial"></label>
+					<label>Diseño de identidad <input type="checkbox" name="Áreas-de-trabajo" value="Diseño de identidad" id="Identidad"></label>
+					<label>Diseño de señalética <input type="checkbox" name="Áreas-de-trabajo" value="Diseño de señalética" id="Señalética"></label>
+					<label>Fotografía <input type="checkbox" name="Áreas-de-trabajo" value="Fotografía" id="Fotografía"></label>
+				</section>
+			</section>
+			<section>
+				<h3>Detalles del proyecto</h3>
+				<textarea name="Detalles del proyecto" id="Detalles del proyecto" placeholder="¿De qué se trata?"></textarea>
+
+				<input type="reset" value="Borrar" class="button-form">
+				<input type="submit" value="Enviar" class="button-form">
+			</section>
 		</form>
 	</main>
 	<footer>
