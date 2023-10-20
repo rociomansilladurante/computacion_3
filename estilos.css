@@ -160,7 +160,7 @@ main {
 	padding-top: 0px;
 }
 
-#portada {
+div {
 	display: flex;
 	flex-direction: row;
 	width: 100%;
@@ -184,6 +184,8 @@ nav ul li a {
 
 main h1{
 	color:#C83E40;
+	padding-bottom: 30px;
+	padding-top: 40px;
 }
 
 article {
@@ -196,10 +198,12 @@ article {
 
 aside{
 	width: 100%;
-	padding: 50px;
+	padding: 0px;
 	display: flex;
 	justify-content: space-between;
 	flex-wrap: wrap;
+	margin-top: 0px;
+	margin-bottom: 0px;
 }
 
 aside a {
