@@ -142,6 +142,8 @@ nav ul li {
 
 .botonera a:hover{
 	color:#000000;
+	transform: translate(20px);
+	transition: all 1s ease-in-out;
 }
 
 #cabecera-portada {
