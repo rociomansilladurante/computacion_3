@@ -135,7 +135,7 @@ header {
 	position: absolute;
 	z-index:17;
 	animation-name: movimiento2;
-	animation-duration: 7s;
+	animation-duration: 20s;
 	animation-direction: normal;
 	animation-iteration-count: infinite;
 }
@@ -185,11 +185,13 @@ h1 {
 h2 {
 	color: #000000;
 	font-size: 33px;
-	font-family: "Kanit ExtraLight", sans-serif;
+	font-family: Kanit, sans-serif;
+	font-weight: 100;
 }
 
 #estructura {
 	display: flex;
+	flex-direction: row;
 	height: 100%;
 	width: 100%;
 	width: 964px;
@@ -204,33 +206,44 @@ main {
 	align-items: center;
 }
 
+.nombre-carrera {
+	display: flex;
+	flex-direction: column;
+	margin-top: 0px;
+	justify-content: flex-start;
+	padding-top: 0px;
+}
+
 h3 {
 	color: #7A6AAD;
 	font-size: 33px;
-	font-family: "Kanit", sans-serif;
+	font-family: Kanit, sans-serif;
 	font-weight: 600;
 }
 
 li {
 	font-size: 16px;
-	font-family: "Kanit", sans-serif;
+	font-family: Kanit, sans-serif;
+	font-weight: 400;
 	list-style: none;
 }
 
 p {
 	font-size: 16px;
-	font-family: "Kanit", sans-serif;
+	font-family: Kanit, sans-serif;
+	font-weight: 400;
 }
 
 h4 {
-	font-family: "Kanit ExtraLight", sans-serif;
+	font-family: Kanit, sans-serif;
+	font-weight: 100;
 	font-size: 14px;
 }
 
 section p {
 	font-size: 16px;
-	font-family: "Kanit", sans-serif;
-
+	font-family: Kanit, sans-serif;
+	font-weight: 400;
 }
 
 footer p {
@@ -243,7 +256,7 @@ footer {
 	flex-direction: row;
 	padding: 40px 30px 40px 30px;
 	width: 100%;
-	height: 50px;
+	height: 13vh;
 	background-color:#7A6AAD;
 	justify-content: space-between;
 	position:relative;
@@ -271,9 +284,12 @@ footer {
 	color:#7A6AAD;
 }
 
-#columna-derecha ¨{
-	width: 300px;
-	padding-top: 20px;
+#columna-derecha article{
+	margin-top: 0px;
+	margin-bottom: 0px;
+	width: 80%;
+	align-items: baseline;
+	padding-top: 3px;
 }
 
 .botonera {
@@ -339,17 +355,20 @@ article h1{
 
 article h2{
 	color:#000000;
+	margin-top: -30px;
+	font-size: 30px;
 }
 
 nav ul li a {
-	font-family: "Kanit ExtraBold", sans-serif;
+	font-family: Kanit, sans-serif;
+	font-weight: bold;
 	font-size: 22px;
 }
 
 main h1{
 	color:#7A6AAD;
 	padding-bottom: 30px;
-	padding-top: 40px;
+	padding-top: 10px;
 }
 
 article {
@@ -392,7 +411,12 @@ form {
 label {
 	display: block;
 	height: 35px;
-	font-family: "Kanit";
+	font-family: Kanit, sans-serif;
+	font-weight: 400;
+}
+
+.columna1 label{
+	padding-top: 16px;
 }
 
 input {
@@ -402,6 +426,8 @@ input {
 	padding: 5px;
 	border-radius: 15px;
 	border-width: 2px;
+	font-family: Kanit, sans-serif;
+	font-weight: 400;
 }
 
 input[type=checkbox] {
@@ -440,12 +466,15 @@ textarea {
 	border-radius: 15px;
 	padding: 10px;
 	border-width: 2px;
+	font-family: Kanit, sans-serif;
+	font-weight: 400;
 }
 
 .estructura-contacto {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-around;
+	align-items: baseline;
 }
 
 form h3 {
