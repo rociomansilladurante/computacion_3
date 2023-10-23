@@ -723,12 +723,13 @@ footer ul li p {
 		flex-direction: column;
 		padding-left: 0px;
 		padding-right: 15px;
-		margin-top: -100px;
+		margin-top: -30px;
 		margin-bottom: -50px;
 		}
 	
 	.trabajos-texto div article h2{
 		padding-left: 0px;
+		margin-top: 10px;
 	}
 	
 	.trabajos-texto aside a{
