@@ -294,8 +294,8 @@ footer {
 .botonera {
 	width: 100%;
 	height: 50px;
-	background-color:#92CFC9;
 	display: flex;
+	flex-direction: row;
 	justify-content: flex-end;
 	align-items: center;
 }
@@ -586,6 +586,9 @@ footer ul li p {
 }
 
 @media screen and (max-width: 1200px) {
+	body{
+		font-size: 0.8em;
+	}
 	.trabajos-texto div article {
 		display: flex;
 		flex-direction: row;
@@ -642,6 +645,7 @@ footer ul li p {
 	}
 	
 	form {
+		margin-top: 60px;
 		width: 70%;
 	}
 	
@@ -657,8 +661,100 @@ footer ul li p {
 		width: 150%;
 		padding-top: 30px;
 	}
-
+	
+	footer{
+		margin-top: 30px;
+	}
+	
+	main h1{
+		margin-top: 60px;
+	}
 }
 
+@media screen and (max-width: 600px) {
+	body{
+		font-size: 0.75em;
+	}
+	
+	header {
+		flex-direction: column;
+		position:relative;
+		top: 0px;
+		z-index: 100;
+		padding: 0px 30px 0px 30px;
+	}
+	
+	.botonera {
+		margin-top: 50px;
+		width: 100%;
+		height: 50px;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	
+	.botonera a {;
+		padding: 0px 10px;
+		display: flex;
+		flex-direction: column;
+	}
 
- 
+	
+	#cabecera-portada {
+		width: 100%;
+		height: 200px;
+		background-size: 100%;
+		padding-bottom: 0px;
+		align-items: center;
+	}
+	
+	footer{
+		display: flex;
+		flex-direction: column;
+		background-size: auto, 200%;
+		height: 40vh;
+	}
+	
+	main {
+		height: 200%;
+	}
+	
+	.trabajos-texto div article {
+		flex-direction: column;
+		padding-left: 0px;
+		padding-right: 15px;
+		margin-top: -100px;
+		margin-bottom: -50px;
+		}
+	
+	.trabajos-texto div article h2{
+		padding-left: 0px;
+	}
+	
+	.trabajos-texto aside a{
+		width: 98%;
+	}
+	
+	#estructura {
+		display: flex;
+		flex-direction: column-reverse;
+		justify-content: center;
+		align-self: center;
+		padding-left: 575px;
+		padding-right: 0px;
+		margin-left: -100px;
+	}
+	
+	#columna-derecha article{
+		width: 35%;
+	}
+	
+	.estructura-contacto{
+		display: block;
+	}
+	
+	main h1{
+		margin: 5px;
+		padding-bottom: 0px;
+	}
+}
