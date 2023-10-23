@@ -74,7 +74,6 @@ header {
 	}
 }
 
-
 .circle2{
 	margin-top: 10px;
 	margin-left: 10px;
@@ -275,7 +274,7 @@ footer {
 }
 
 #columna-izquierda {
-	margin: 30px;
+	margin: 0px;
 	padding-top: 0px;
 	width: 700px;
 }
@@ -549,6 +548,24 @@ footer ul li p {
 	background-color: #FFCACB;
 }
 
+.trabajos-texto {
+	width: 100%;
+	padding: 0px;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.trabajos-texto aside a{
+	width: 23%;
+	margin-top: 2%;
+}
+
+.trabajos-texto aside a img {
+	width: 100%;
+	height: auto;
+}
+
 .trabajos-texto div article{
 	display: flex;
 	flex-direction: row;
@@ -558,3 +575,90 @@ footer ul li p {
 .trabajos-texto div article h2{
 	padding: 0px 185px 0px 200px;
 }
+
+.foto-nombre {
+	display: flex;
+	flex-direction: row;
+}
+
+.foto-nombre img {
+	padding-right: 85px;
+}
+
+@media screen and (max-width: 1200px) {
+	.trabajos-texto div article {
+		display: flex;
+		flex-direction: row;
+		align-items: baseline;
+		padding: 50px;
+		
+	}
+	
+	.trabajos-texto div article h2{
+		padding-left: 40px;
+		padding-right: 30px;
+		
+	}
+	
+	.trabajos-texto aside a{
+	width: 48%;
+}
+	header {
+	width: 100%;
+	padding: 0px 10px 0px 10px;
+}
+	footer p{
+		padding-right: 0px;
+	}
+	
+	footer ul{
+		padding-right: 1px;
+	}
+	
+	#columna-derecha{
+		padding-right: 120px;
+	}
+	
+	.foto-nombre {
+		display: block;
+	}
+	
+	.foto-nombre img {
+	padding-right: 0px;
+	padding-left: 80px;
+	}
+	
+	#estructura {
+	display: flex;
+	flex-direction: column-reverse;
+	justify-content: center;
+	align-self: center;
+	padding-left: 275px;
+	padding-right: 150px;
+	}
+	
+	#columna-izquierda{
+		padding-left: 76px;
+	}
+	
+	form {
+		width: 70%;
+	}
+	
+	.columna1 {
+		padding-right: 100px;
+	}
+	
+	.rociodg {
+	top: 365px;
+	}
+	
+	.fondo img{
+		width: 150%;
+		padding-top: 30px;
+	}
+
+}
+
+
+ 
