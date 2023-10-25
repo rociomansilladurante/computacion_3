@@ -576,6 +576,10 @@ footer ul li p {
 	padding: 0px 185px 0px 200px;
 }
 
+.trabajos-fondo{
+	background-color: #FFCACB;
+}
+
 .foto-nombre {
 	display: flex;
 	flex-direction: row;
@@ -583,6 +587,11 @@ footer ul li p {
 
 .foto-nombre img {
 	padding-right: 85px;
+}
+
+.bold {
+	font-family: Kanit, sans-serif;
+	font-weight: 600;
 }
 
 @media screen and (max-width: 1200px) {
@@ -610,12 +619,17 @@ footer ul li p {
 	width: 100%;
 	padding: 0px 10px 0px 10px;
 }
+	.alfabeto{
+		width: 1200px;
+	}
+	
 	footer p{
-		padding-right: 0px;
+		padding-right: 30px;
 	}
 	
 	footer ul{
-		padding-right: 1px;
+		padding-right: 20px;
+		padding-left: 20px;
 	}
 	
 	#columna-derecha{
@@ -664,6 +678,7 @@ footer ul li p {
 	
 	footer{
 		margin-top: 30px;
+		width: 100%;
 	}
 	
 	main h1{
@@ -682,6 +697,10 @@ footer ul li p {
 		top: 0px;
 		z-index: 100;
 		padding: 0px 30px 0px 30px;
+	}
+	
+	.alfabeto{
+		width: 600px;
 	}
 	
 	.botonera {
