@@ -594,6 +594,12 @@ footer ul li p {
 	font-weight: 600;
 }
 
+footer ul li a{
+	color: #FFFFFF;
+	padding-left: 10px;
+	text-decoration: none;
+}
+
 @media screen and (max-width: 1200px) {
 	body{
 		font-size: 0.8em;
